@@ -124,7 +124,7 @@ var logoutbtn  = document.querySelector('.logout');
 logoutbtn.addEventListener('click', (e) => {
     e.preventDefault();
     sessionStorage.removeItem('currentUserObj');
-    window.location.href = "/login.html";
+    window.location.href = "/F3-Final-Project/login.html";
 })
 
 
