@@ -9,13 +9,13 @@ var signupbutton = document.querySelector('.sighupbtn');
 loginbutton.addEventListener('click', (e) => {
     e.preventDefault();
     // console.log("first")
-    window.location.href = "./login/index.html";
+    window.location.href = "/F3-Final-Project/login.html";
 });
 
 signupbutton.addEventListener('click', (e) => {
     e.preventDefault();
     // console.log("first")
-    window.location.href = "./signup/index.html";
+    window.location.href = "/F3-Final-Project/signup.html";
 });
 
 var myCart = document.querySelector('.myCart');
@@ -25,7 +25,7 @@ myCart.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/cart.html"
+        window.location.href = "/F3-Final-Project/cart.html"
     }
 })
 
@@ -36,6 +36,6 @@ myProfile.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/profile.html"
+        window.location.href = "/F3-Final-Project/profile.html"
     }
 })
