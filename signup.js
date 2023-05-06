@@ -70,7 +70,7 @@ spsignUpbtn.addEventListener('click', (e) => {
     localStorage.setItem('usersObj', JSON.stringify(usersObj));
     var myForm = document.getElementById("myForm");
     myForm.reset();
-    window.location.href = "/login.html";
+    window.location.href = "/F3-Final-Project/login.html";
 })
 
 
@@ -81,7 +81,7 @@ myCart.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/cart.html"
+        window.location.href = "/F3-Final-Project/cart.html"
     }
 })
 
@@ -92,6 +92,6 @@ myProfile.addEventListener('click', (e) => {
         alert('Login First');
     }
     else{
-        window.location.href = "/profile.html"
+        window.location.href = "/F3-Final-Project/profile.html"
     }
 })
